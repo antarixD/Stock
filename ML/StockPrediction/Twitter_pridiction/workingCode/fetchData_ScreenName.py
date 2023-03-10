@@ -5,9 +5,9 @@ from datetime import timedelta
 import datetime
 import pandas as pd
 import tabulate
-import utils.datefile as dateUtils
-import utils.fileSystem as fileUtils
-import utils.pd_file as pdUtils
+import ML.utils.datefile as dateUtils
+import ML.utils.fileSystem as fileUtils
+import ML.utils.pd_file as pdUtils
 import os
 
 #Twitter API credentials

@@ -10,13 +10,13 @@ from bs4 import BeautifulSoup # for html parsing and scraping
 import bs4
 import re
 import pandas as pd
-import utils.scrapUtil as scrap
-import utils.pd_file as pdUtils
+import ML.utils.scrapUtil as scrap
+import ML.utils.pd_file as pdUtils
 from IPython.core.interactiveshell import InteractiveShell
 InteractiveShell.ast_node_interactivity = "all"
 from IPython.core.display import HTML
 HTML("<b>Rendered HTML</b>")
-import utils.fileSystem as fs
+import ML.utils.fileSystem as fs
 
 
 
