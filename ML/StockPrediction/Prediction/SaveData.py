@@ -14,4 +14,4 @@ stock_fut = get_history(symbol="KWALITY",
  futures=False)
 stock_fut.head()
 
-stock_fut.to_csv(f'/home/antarix/Desktop/naive bayes/Stocks/Data/KWALITY.csv')
+stock_fut.to_csv(f'C:/Users/Antarix/Documents/StockData/KWALITY.csv')
